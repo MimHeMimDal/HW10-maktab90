@@ -1,18 +1,18 @@
 "use strict";
-import elementGenerator from "../../../library/ElementGernerator";
-import navbar from "../../../components/Navbar";
-import button from "../../../components/Button";
+import elementGenerator from "../../library/ElementGernerator";
+import navbar from "../../components/Navbar";
+import button from "../../components/Button";
 function navbarTop() {
   return elementGenerator({
     element: "div",
-    className: "w-full px-2 fixed top-16 border-b bg-white lg:hidden",
+    className: "w-full px-4 border-b z-10 top-16 bg-white fixed lg:hidden",
     child: navbar({
       child: elementGenerator({
         element: "div",
         className: "overflow-scroll",
         child: elementGenerator({
           element: "div",
-          className: "flex gap-3",
+          className: "flex gap-2",
           child: [
             button({
               child: [
@@ -20,7 +20,7 @@ function navbarTop() {
                 elementGenerator({ element: "div", child: "فیلترها" }),
               ],
               className:
-                "inline-flex border rounded-3xl border-gray-300 items-center gap-1  px-6 h-10",
+                "inline-flex border rounded-3xl border-gray-300 items-center gap-1  px-3 h-8",
             }),
             button({
               child: [
@@ -28,7 +28,7 @@ function navbarTop() {
                 elementGenerator({ element: "div", child: "دسته‌ها" }),
               ],
               className:
-                "inline-flex border rounded-3xl border-gray-300 items-center gap-1 px-6 h-10",
+                "inline-flex border rounded-3xl border-gray-300 items-center gap-1 px-3 h-8",
             }),
             button({
               child: elementGenerator({
@@ -37,7 +37,7 @@ function navbarTop() {
                 child: "خودرو سواری",
               }),
               className:
-                "inline-flex items-center border rounded-3xl border-gray-300 px-6 h-10",
+                "inline-flex items-center border rounded-3xl border-gray-300 px-3 h-8",
             }),
             button({
               child: elementGenerator({
@@ -46,7 +46,7 @@ function navbarTop() {
                 child: "فروش آپارتمان",
               }),
               className:
-                "inline-flex items-center border rounded-3xl border-gray-300 px-6 h-10",
+                "inline-flex items-center border rounded-3xl border-gray-300 px-3 h-8",
             }),
             button({
               child: elementGenerator({
@@ -55,7 +55,7 @@ function navbarTop() {
                 child: "اجاره آپارتمان",
               }),
               className:
-                "inline-flex items-center border rounded-3xl border-gray-300 px-6 h-10",
+                "inline-flex items-center border rounded-3xl border-gray-300 px-3 h-8",
             }),
             button({
               child: elementGenerator({
@@ -64,7 +64,7 @@ function navbarTop() {
                 child: "صندلی و نیمکت",
               }),
               className:
-                "inline-flex items-center border rounded-3xl border-gray-300 px-6 h-10",
+                "inline-flex items-center border rounded-3xl border-gray-300 px-3 h-8",
             }),
             button({
               child: elementGenerator({
@@ -73,19 +73,19 @@ function navbarTop() {
                 child: "وسایل شخصی",
               }),
               className:
-                "inline-flex items-center border rounded-3xl border-gray-300 px-6 h-10",
+                "inline-flex items-center border rounded-3xl border-gray-300 px-3 h-8",
             }),
             button({
               child: "خدمات",
-              className: " border rounded-3xl border-gray-300 px-6 h-10",
+              className: " border rounded-3xl border-gray-300 px-3 h-8",
             }),
             button({
               child: "استخدام",
-              className: "border rounded-3xl border-gray-300 px-6 h-10",
+              className: "border rounded-3xl border-gray-300 px-3 h-8",
             }),
             button({
               child: "تلوزیون",
-              className: "border rounded-3xl border-gray-300 px-6 h-10",
+              className: "border rounded-3xl border-gray-300 px-3 h-8",
             }),
           ],
         }),

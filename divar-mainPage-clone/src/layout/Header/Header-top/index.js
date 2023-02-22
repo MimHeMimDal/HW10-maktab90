@@ -26,7 +26,7 @@ function header() {
               elementGenerator({
                 element: "input",
                 placeholder: "جستجو در همه آگهی‌ها",
-                className: "bg-transparent pr-2",
+                className: "bg-transparent pr-3 w-full placeholder:text-zinc-400",
               }),
             ],
             className: "flex w-3/4 items-center",
@@ -56,7 +56,7 @@ function header() {
       }),
       className: "bg-zinc-100 p-2 text-gray-300",
     }),
-    className: "px-6 py-4 fixed top-0 bg-white w-full border-b lg:hidden",
+    className: "px-4 py-3 fixed z-20 bg-white w-full border-b lg:hidden",
   });
 }
 

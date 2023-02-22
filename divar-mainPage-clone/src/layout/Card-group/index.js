@@ -18,6 +18,7 @@ function cardsGroup() {
         price: userData.price,
         time: userData.time,
         location: userData.location,
+        src: userData.src
       })
     )
   );

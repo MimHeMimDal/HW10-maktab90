@@ -4,7 +4,7 @@ const Data = [
   {
     id: 1,
     tiltle: "چرخ خیاطی اصل",
-    src: "../assests/images/userImages/1.webp",
+    src: "https://s100.divarcdn.com/static/thumbnails/1677067187/wY1X8uP-.webp",
     price: 100000000,
     status: "در حد نو",
     time: "لحظاتی پیش",
@@ -13,7 +13,7 @@ const Data = [
   {
     id: 2,
     tiltle: "چرخ خیاطی اصل",
-    src: "../assests/images/userImages/2.webp",
+    src: "https://s100.divarcdn.com/static/thumbnails/1676973268/wY0PGFfi.webp",
     price: 100000000,
     status: "در حد نو",
     time: "لحظاتی پیش",
@@ -22,7 +22,7 @@ const Data = [
   {
     id: 3,
     tiltle: "چرخ خیاطی اصل",
-    src: "../assests/images/userImages/3.webp",
+    src: "https://s100.divarcdn.com/static/thumbnails/1676934698/wYz_LKAm.webp",
     price: 100000000,
     status: "در حد نو",
     time: "لحظاتی پیش",
@@ -31,7 +31,7 @@ const Data = [
   {
     id: 4,
     tiltle: "چرخ خیاطی اصل",
-    src: "../assests/images/userImages/4.webp",
+    src: "https://s100.divarcdn.com/static/thumbnails/1676923445/wYz35xVz.webp",
     price: 100000000,
     status: "در حد نو",
     time: "لحظاتی پیش",
@@ -40,7 +40,7 @@ const Data = [
   {
     id: 5,
     tiltle: "چرخ خیاطی اصل",
-    src: "../assests/images/userImages/5.webp",
+    src: "https://s100.divarcdn.com/static/thumbnails/1676894018/wYz3ixqp.webp",
     price: 100000000,
     status: "در حد نو",
     time: "لحظاتی پیش",
@@ -49,7 +49,7 @@ const Data = [
   {
     id: 6,
     tiltle: "چرخ خیاطی اصل",
-    src: "../images/userImages/6.webp",
+    src: "https://s100.divarcdn.com/static/thumbnails/1676854090/wYyzYZg8.webp",
     price: 100000000,
     status: "در حد نو",
     time: "لحظاتی پیش",
@@ -57,8 +57,8 @@ const Data = [
   },
   {
     id: 7,
-    tiltle: "چرخ خیاطی اصل",
-    src: "HW10-maktab90/divar-mainPage-clonesrc/assetss/images/userImages/7.webp", //E:\Maktab\Git\HW10-maktab90\divar-mainPage-clone\src\assests\images\userImages\1.webp
+    tiltle: "چرخ خیاطی اصل قم",
+    src: "https://s100.divarcdn.com/static/thumbnails/1676822144/wYczM6FG.webp", //E:\Maktab\Git\HW10-maktab90\divar-mainPage-clone\src\assests\images\userImages\1.webp
     price: 100000000,
     status: "در حد نو",
     time: "لحظاتی پیش",
@@ -67,7 +67,7 @@ const Data = [
   {
     id: 8,
     tiltle: "چرخ خیاطی اصل",
-    src: "../assests/images/userImages/8.webp",
+    src: "https://s100.divarcdn.com/static/thumbnails/1676799834/wYxHCQzV.webp",
     price: 100000000,
     status: "در حد نو",
     time: "لحظاتی پیش",
@@ -76,7 +76,7 @@ const Data = [
   {
     id: 9,
     tiltle: "چرخ خیاطی اصل",
-    src: "../assests/images/userImages/9.webp",
+    src: "https://s100.divarcdn.com/static/thumbnails/1676752997/wYxbwYDQ.webp",
     price: 100000000,
     status: "در حد نو",
     time: "لحظاتی پیش",
@@ -85,7 +85,7 @@ const Data = [
   {
     id: 10,
     tiltle: "چرخ خیاطی اصل",
-    src: "../assests/images/userImages/10.webp",
+    src: "https://s100.divarcdn.com/static/thumbnails/1676741028/wYaCcgDD.webp",
     price: 100000000,
     status: "در حد نو",
     time: "لحظاتی پیش",
