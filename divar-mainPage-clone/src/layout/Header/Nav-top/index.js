@@ -5,7 +5,7 @@ import button from "../../../components/Button";
 function navbarTop() {
   return elementGenerator({
     element: "div",
-    className: "w-full px-2 sticky border-b lg:hidden",
+    className: "w-full px-2 fixed top-16 border-b bg-white lg:hidden",
     child: navbar({
       child: elementGenerator({
         element: "div",
@@ -31,24 +31,49 @@ function navbarTop() {
                 "inline-flex border rounded-3xl border-gray-300 items-center gap-1 px-6 h-10",
             }),
             button({
-              child: "خودرو سواری",
-              className: "inline-flex border rounded-3xl border-gray-300 px-6 h-10",
+              child: elementGenerator({
+                element: "div",
+                className: "w-20",
+                child: "خودرو سواری",
+              }),
+              className:
+                "inline-flex items-center border rounded-3xl border-gray-300 px-6 h-10",
             }),
             button({
-              child: "فروش آپارتمان",
-              className: "border rounded-3xl border-gray-300 px-6 h-10",
+              child: elementGenerator({
+                element: "div",
+                className: "w-20",
+                child: "فروش آپارتمان",
+              }),
+              className:
+                "inline-flex items-center border rounded-3xl border-gray-300 px-6 h-10",
             }),
             button({
-              child: "اجاره آپارتمان",
-              className: " border rounded-3xl border-gray-300 px-6 h-10",
+              child: elementGenerator({
+                element: "div",
+                className: "w-20",
+                child: "اجاره آپارتمان",
+              }),
+              className:
+                "inline-flex items-center border rounded-3xl border-gray-300 px-6 h-10",
             }),
             button({
-              child: "صندلی و نیمکت",
-              className: "border rounded-3xl border-gray-300 px-6 h-10",
+              child: elementGenerator({
+                element: "div",
+                className: "w-28",
+                child: "صندلی و نیمکت",
+              }),
+              className:
+                "inline-flex items-center border rounded-3xl border-gray-300 px-6 h-10",
             }),
             button({
-              child: "وسایل شخصی",
-              className: "border rounded-3xl border-gray-300 px-6 h-10",
+              child: elementGenerator({
+                element: "div",
+                className: "w-20",
+                child: "وسایل شخصی",
+              }),
+              className:
+                "inline-flex items-center border rounded-3xl border-gray-300 px-6 h-10",
             }),
             button({
               child: "خدمات",

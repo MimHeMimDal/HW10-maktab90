@@ -56,7 +56,7 @@ function header() {
       }),
       className: "bg-zinc-100 p-2 text-gray-300",
     }),
-    className: "px-6 py-4 sticky border-b lg:hidden",
+    className: "px-6 py-4 fixed top-0 bg-white w-full border-b lg:hidden",
   });
 }
 
