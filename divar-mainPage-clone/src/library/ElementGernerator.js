@@ -5,7 +5,10 @@ function elementGenerator({ element, child, ...rest }) {
   for (const key in rest) {
     elem[key] = rest[key];
   }
-  child && element.append(...child);
+
+  Array.isArray(child)
+    ? elem.append(...child)
+    : child && elem.append(child);
   return elem;
 }
 

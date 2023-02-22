@@ -1,0 +1,73 @@
+"use strict";
+import elementGenerator from "../../../library/ElementGernerator";
+import navbar from "../../../components/Navbar";
+import button from "../../../components/Button";
+function navbarTop() {
+  return elementGenerator({
+    element: "div",
+    className: "w-full px-2 sticky border-b lg:hidden",
+    child: navbar({
+      child: elementGenerator({
+        element: "div",
+        className: "overflow-scroll",
+        child: elementGenerator({
+          element: "div",
+          className: "flex gap-3",
+          child: [
+            button({
+              child: [
+                elementGenerator({ element: "ion-icon", name: "options" }),
+                elementGenerator({ element: "div", child: "فیلترها" }),
+              ],
+              className:
+                "inline-flex border rounded-3xl border-gray-300 items-center gap-1  px-6 h-10",
+            }),
+            button({
+              child: [
+                elementGenerator({ element: "ion-icon", name: "list-outline" }),
+                elementGenerator({ element: "div", child: "دسته‌ها" }),
+              ],
+              className:
+                "inline-flex border rounded-3xl border-gray-300 items-center gap-1 px-6 h-10",
+            }),
+            button({
+              child: "خودرو سواری",
+              className: "inline-flex border rounded-3xl border-gray-300 px-6 h-10",
+            }),
+            button({
+              child: "فروش آپارتمان",
+              className: "border rounded-3xl border-gray-300 px-6 h-10",
+            }),
+            button({
+              child: "اجاره آپارتمان",
+              className: " border rounded-3xl border-gray-300 px-6 h-10",
+            }),
+            button({
+              child: "صندلی و نیمکت",
+              className: "border rounded-3xl border-gray-300 px-6 h-10",
+            }),
+            button({
+              child: "وسایل شخصی",
+              className: "border rounded-3xl border-gray-300 px-6 h-10",
+            }),
+            button({
+              child: "خدمات",
+              className: " border rounded-3xl border-gray-300 px-6 h-10",
+            }),
+            button({
+              child: "استخدام",
+              className: "border rounded-3xl border-gray-300 px-6 h-10",
+            }),
+            button({
+              child: "تلوزیون",
+              className: "border rounded-3xl border-gray-300 px-6 h-10",
+            }),
+          ],
+        }),
+      }),
+      className: "py-2 text-gray-400 text-sm",
+    }),
+  });
+}
+
+export default navbarTop;
